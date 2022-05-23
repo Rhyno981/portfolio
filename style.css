@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+        .banner{
+            background-image:linear-gradient(to right ,#151b1d, #2a363b, #3f5159);
+            width:100%;
+            height:40rem;
+
+        }
+        nav{
+            background-image:linear-gradient(to right,#ff5449, #ff847c,#ffb4af );
+            width:100%;
+        }
+        .nav-item{
+            color:white;
+            font-family:'Open Sans';
+            font-weight:500;
+            font-size: 1.1em;
+            -webkit-transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+            transition: .2s;
+        }
+        .quote{
+            color:white;
+            margin-top:-42%;
+            margin-right:8%;
+            font-family:'Open Sans';
+            font-weight:500;
+            font-size: 1.5em;
+            
+        }
+        .card{
+            transition: all .2s ease-in-out;
+        } 
+        .card:hover{
+            transform: scale(1.1); 
+            cursor: pointer;
+            border-color:#ff5449;
+            overflow:hidden;
+        }
+        .btn{
+            overflow-x: hidden;
+            color:#fff;
+            background-color: #ff5449;
+            border-color:#ffff;
+            border-width:2px;
+            -webkit-transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+            /*transition: background-color 300ms ease-in-out, color 300ms ease-in-out;*/
+            transition: .2s;
+        }
+        .btn:hover{
+            opacity:.50;
+        }
+
+
+        .btn:focus{
+            opacity:.50;
+        }
+        .content1{
+            overflow:hidden;
+        }
